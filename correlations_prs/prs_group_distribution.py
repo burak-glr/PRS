@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-# PRS distribution by group (T2D cases vs controls): violin + strip + mean±95%CI,
-# annotated with Wilcoxon and t-test p-values. Shapiro-Wilk
-# normality is checked first (PRS is normal -> t-test is the appropriate test;
-# Wilcoxon shown as a rank-based sensitivity check).
+# PRS distribution by group (T2D cases vs controls)
+# Wilcoxon and t-test p-values
 import pandas as pd, numpy as np, matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt, seaborn as sns
 from scipy import stats
