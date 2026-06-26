@@ -4,7 +4,7 @@
 import pandas as pd, numpy as np, matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt, seaborn as sns
 from scipy import stats
-np.random.seed(0)                     # fixed jitter -> reproducible point positions
+np.random.seed(0)                     
 BD = "/cta/users/burak.guler/miRNA/CES_DATALARI/association/prs_core10x"
 
 best = pd.read_csv(f"{BD}/T2D_PRS_core10x.best", sep=r"\s+"); best = best[best.In_Regression == "Yes"]
