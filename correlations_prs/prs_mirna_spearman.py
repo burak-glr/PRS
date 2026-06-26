@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # PRS (core10x) vs each miRNA — Spearman correlation, horizontal bar.
-# miRNA log2(RQ); rho at bar tip, p-value on the opposite side; red if p<0.05.
 import pandas as pd, numpy as np, matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy import stats
