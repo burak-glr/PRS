@@ -1,5 +1,4 @@
 # PRS (core10x, EUR weights) vs clinical parameters - Spearman correlation.
-# Whole cohort (79) + within-cases. Pairwise-complete. rho, p, n per param.
 setwd("/cta/users/burak.guler/miRNA/CES_DATALARI")
 suppressMessages({library(ggplot2)})
 
