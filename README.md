@@ -16,7 +16,7 @@ PRSice-2, somalier and 1000G reference.
 
 | Directory | Does | Key output |
 |---|---|---|
-| `variant_calling/` | sarek align + germline call → VEP → keep canonical coding/splice/UTR variants → plink2 | `exonic_assoc` (pgen) |
+| `variant_calling/` | sarek align + germline call → VEP → keep coding/splice/UTR variants → plink2 | `exonic_assoc` (pgen) |
 | `coverage_coregenes/` | mosdepth per-gene depth → **core10x** (≥10× mean depth in all 80 samples) → restrict variant positions | `core10x_keep_pos.bed` |
 | `prs/` | base GWAS QC + liftover hg19→hg38 (Suzuki 2024 EUR) → target QC + core10x restriction + KING → PRSice-2 Clumping + Thresholding | `T2D_PRS_core10x.best` |
 | `ancestry/` | somalier and 1000G AIMs → interactive 3D PCA | ancestry `.tsv`, `ancestry_pca_3d.html` |
