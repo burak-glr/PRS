@@ -20,7 +20,7 @@ for m in mir:
     r, p = stats.spearmanr(d["PRS"][ok], d[m][ok])
     rows.append((m, round(r, 2), p))
 res = pd.DataFrame(rows, columns=["miRNA", "r", "p"]).sort_values("r")
-res["sig"] = res["p"].round(3) < 0.05          # colour matches the displayed (rounded) p
+res["sig"] = res["p"].round(3) < 0.05          
 
 def plot(title, fname):
     fig, ax = plt.subplots(figsize=(8.5, 8))
