@@ -4,9 +4,8 @@
 - `dplyr`
 - `ggplot2` 
 - `tidyr` 
-- PRSice.R dependencies : `optparse`, `data.table`, `RColorBrewer`, `methods`, `tools`
-
-
+- PRSice.R dependencies : `optparse`, `data.table`, `RColorBrewer`, `methods`, `tools`,`grDevices`
+     
 ## Python packages (Python 3.12.0)
 - `pandas`
 - `numpy` 
