@@ -12,7 +12,7 @@ Suzuki 2024 EUR sumstats, hg19→hg38 chain,
 PRSice-2, somalier and 1000G reference.
 
 
-## Stages
+## Workflow
 
 | Directory | Does | Key output |
 |---|---|---|
